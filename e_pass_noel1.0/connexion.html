@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Mr&Mrs - Wedding Bootstrap Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;500;600&family=Petit+Formal+Script&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target="#navBar" id="weddingHome">
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="container-fluid">
+                <div class="container px-0">
+                    <nav class="navbar navbar-light navbar-expand-xl" id="navBar">
+                        <a href="index.html" class="navbar-brand">
+                            <h4 class="text-primary display-6 fw-bold mb-0">Marche <strong class="text-secondary">De </strong>Noel</h4>
+                        </a>
+                        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="fa fa-bars text-primary"></span>
+                        </button>
+                        <div class="collapse navbar-collapse py-3" id="navbarCollapse">
+                            <div class="navbar-nav mx-auto border-top">
+                                <a href="#weddingHome" class="nav-item nav-link active">Home</a>
+                                <a href="#weddingAbout" class="nav-item nav-link">#</a>
+                                <a href="#weddingStory" class="nav-item nav-link">#</a>
+                                <a href="#weddingTimeline" class="nav-item nav-link">#</a>
+                                <a href="#weddingGallery" class="nav-item nav-link">#</a>
+                                <!-- <a href="#weddingRsvp" class="nav-item nav-link">RSVP</a> -->
+                            </div>
+                            <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                                <a href="#weddingRsvp" class="btn btn-primary btn-primary-outline-0 py-2 px-4 ms-4">Reservez Maintenant</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid carousel-header px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/carrousel_5.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                                <div class="d-inline-block  mb-4">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;"> Bienvenu sur notre site de reservation de vos pass</h4>
+                                </div>
+                                <h1 id="dynamic-text"  class="display-1 text-capitalize text-white mb-3 "> </h1>
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-5" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;"> Du 17 dec au 5 jan</h4>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#">Reservez Maintenant </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carrousel_2.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                                <div class="d-inline-block  mb-5">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">Bienvenu sur notre site de reservation de vos pass</h4>
+                                </div>
+                                <h1 id="dynamic-text"  class="display-1 text-capitalize text-white mb-3 "> </h1>
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">Du 17 dec 2024 au 5 jan 2025</h4>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#">Reservez Maintenant</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carrousel_3.jpg" class="img-fluid bg-secondary" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                                <div class="d-inline-block mb-4">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">Bienvenu sur notre site de reservation de vos pass</h4>
+                                </div>
+                                <h1 id="dynamic-text"  class="display-1 text-lowercase text-white mb-3 "> </h1>
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">Du 17 dec 2024 au 5 jan 2025</h4>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#">Reservez Maintenant </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- RSVP Form Start -->
+        <div class="container-fluid RSVP-form py-5" id="weddingRsvp">
+            <div class="container py-5">
+                <div class="mb-5 text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-2 text-primary">RSVP Form</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="p-5 border-secondary position-relative" style="border-style: double;">
+                            <div class="fw-bold text-primary bg-white d-flex align-items-center justify-content-center position-absolute border-secondary p-2 wow fadeIn" data-wow-delay="0.1s" style="width: 75%; border-style: double; top: 0; left: 50%; transform: translate(-50%, -50%);">
+                                Kindly respond by June 25, 2024 we look forward to celebrating with you!
+                            </div>
+                            <form>
+                                <div class="row gx-4 gy-3">
+                                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                        <div class="form-group">
+                                            <label for="Examplename" class="form-label text-dark">First Name</label>
+                                            <input type="text" class="form-control py-3 border-0" id="Examplename" placeholder="First Name">
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                        <div class="form-group">
+                                            <label for="Examplename" class="form-label text-dark">Last Name</label>
+                                            <input type="text" class="form-control py-3 border-0" id="Examplename" placeholder="Last Name">
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                        <div class="form-group">
+                                            <label for="Examplename" class="form-label text-dark">Enter Your Email</label>
+                                            <input type="email" class="form-control py-3 border-0" id="Examplename" placeholder="Enter Your Email">
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                        <div class="form-group">
+                                            <label for="Examplename" class="form-label text-dark">Enter Your Phone</label>
+                                            <input type="text" class="form-control py-3 border-0" id="Examplename" placeholder="Enter Your Phone">
+                                          </div>
+                                    </div>
+                                    <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                        <div class="form-group">
+                                            <label for="exampleselect" class="form-label text-dark">Number Of Guests</label>
+                                            <select class="form-control bg-white text-dark py-3 border-0" id="exampleselect" placeholder="Number Of Guests">
+                                              <option>Only Me</option>
+                                              <option>02 Guests</option>
+                                              <option>03 Guests</option>
+                                              <option>04 Guests</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                        <div class="form-group">
+                                            <label for="exampletextarea" class="form-label text-dark">Message</label>
+                                            <textarea name="text" class="form-control border-0" id="exampletextarea" cols="30" rows="5" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                        <div class="text-center border border-secondary p-4 my-4 position-relative">
+                                            <div class="fw-bold text-primary bg-white d-flex align-items-center justify-content-center position-absolute border-secondary p-2" style="width: 50%; border-style: double; top: 0; left: 50%; transform: translate(-50%, -50%);">
+                                                Will you be attending?
+                                            </div>
+                                            <div class="mt-4">
+                                                <div class="row g-4">
+                                                    <div class="col-lg-6">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="form-check d-flex">
+                                                                <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                <label class="form-check-label text-dark" for="flexRadioDefault1">
+                                                                    Accepts With Pleasure!
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="form-check d-flex">
+                                                                <input class="form-check-input me-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                <label class="form-check-label text-dark" for="flexRadioDefault1">
+                                                                    Declines With Regret
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center wow fadeIn" data-wow-delay="0.1s">
+                                        <button class="btn btn-primary btn-primary-outline-0 py-3 px-5">Submit Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <!-- RSVP Form End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5 justify-content-center">
+                    <div class="col-lg-4 text-start">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Home</h4>
+                            <a href="#" class="btn-link"> #</a>
+                            <a href="#" class="btn-link"> #</a>
+                            <a href="#" class="btn-link"> #</a>
+                            <a href="#" class="btn-link"> #</a>
+                            <a href="#" class="btn-link"> Reservez Maintenant </a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">Marché <strong class="text-primary">De </strong>Noel</h4>
+                            <p class="text-white">
+             
+                            </p>
+                            <div class="btn-link d-flex justify-content-center">
+                                <a href="https://www.facebook.com/lemarchedenoeldla/" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-end">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Follow Us</h4>
+                            <a href="https://www.facebook.com/lemarchedenoeldla/" class="btn-link"> Faceboock</a>
+                      
+                            <h4 class="my-4 text-white">Contact Us</h4>
+                            <a href="infos@lemarchedenoel-dla.com" class="btn-link"><i class="fas fa-envelope text-secondary me-2"></i> infos@lemarchedenoel-dla.com</a>
+                            <a href="https://api.whatsapp.com/send?phone=237651555505&text&context=ARCKLXixFIdrC1ywDI-9fggXp8n90cRzAws81i-Thl3xjetlWtyLjV3zvzjJWV4tspgqVK1Drerk5H2eb6yblkgqRqNMyQiP1Rym_mYxwQeK7B4e3AJyIoz0X8xEdpc4e8zD8CzEHFZgtsokDk7iKa6B7g&source&app=facebook" class="btn-link"><i class="fas fa-phone text-secondary me-2"></i> +237 6 51 55 55 05</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i> 2024 Marché De Noel </a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                    
+                        Designed By <a class="border-bottom" href="#">PayMe </a> Distributed By <a href="#">Marché De Noel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/animations.js" defer></script>
+    <script src="js/main.js"></script>
+    </body>
+
+</html>

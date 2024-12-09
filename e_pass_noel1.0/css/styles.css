@@ -1,0 +1,5 @@
+.logo-container{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+}
